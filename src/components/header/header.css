@@ -1,0 +1,71 @@
+.Header {
+	background: var(--gray-clr-100);
+	padding: 1rem 3%;
+	height: 6rem;
+	border-radius: 0 0 1rem 1rem;
+	box-shadow: 0px 2px 10px var(--gray-clr-300);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.rigth-section{
+    display: flex;
+    align-items: center;
+}
+.profileUser{
+    width: 40px;
+    border-radius: 100%;
+}
+
+.userData{
+  font-size: 14px;
+  padding-right: 1rem;
+}
+
+.userData > span {
+    color: var(--gray-clr-800);
+    display: block;
+    margin: .5rem 0;
+    font-size: 13px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.left-section button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 2rem;
+    gap: .5rem;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    text-wrap: nowrap;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.left-section button.primary{
+    background: var(--primary-clr);
+    color: var(--gray-clr-100);
+}
+.left-section button.delete{
+    background: var(--red-clr-100);
+    color: var(--red-clr-800);
+    opacity: 1;
+}
+/* .left-section button.delete{
+    opacity: 1;
+    background: var(--red-clr-800);
+    color: var(--gray-clr-100);
+} */
+.left-section button.primary svg{
+    color: var(--gray-clr-100);
+}
+.left-section button.delete svg{
+    color: var(--red-clr-800);
+}
