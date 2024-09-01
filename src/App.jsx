@@ -102,7 +102,7 @@ function App() {
 		switch (name) {
 			case "fullName":
 				if (value.length > 5) {
-					value = value.trim();
+					
 					setNewContact({ ...newcontact, fullName: value });
 					setErr({
 						...err,
@@ -134,7 +134,7 @@ function App() {
 				break;
 			case "job":
 				if (value.length >= 2) {
-					value = value.trim();
+					
 					setNewContact({ ...newcontact, job: value });
 					setErr({
 						...err,
